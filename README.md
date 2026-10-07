@@ -1,0 +1,1 @@
+# platika_jewerly
