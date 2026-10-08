@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../src/fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../src/fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../src/fonts/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../src/fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
@@ -97,21 +129,21 @@ button:disabled {
   cursor: pointer;
   font-family: inherit;
   flex-shrink: 0;
-  background: 0; 
+  background: 0;
+  background-color: var(--black-19); 
   transition: all 0.2s ease;
   color: inherit;
   -webkit-tap-highlight-color: transparent;
   text-decoration: none;
-  border-radius: 0;
-  padding: 0;
-  height: 0;
+  border-radius: 20px;
+  padding: 11px 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .btn:active {
-  transform: scale(.97);
+  transform: scale(.98);
 }
 
 a {
@@ -155,6 +187,12 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
   background-color: color-mix(in srgb, currentColor 20%, transparent);
 }
 
+:root {
+  --black-19: #191919;
+  --black-1a: #1A1A1A;
+  --grey-37: #373737;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -164,4 +202,9 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
     transition-duration: .01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+.content-area {
+  max-width: 1200px;
+  width: 100%;
 }

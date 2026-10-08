@@ -1,0 +1,45 @@
+.header-wrapper {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.header-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  max-width: 1200px;
+}
+
+.header__logo-wrapper {
+  width: 12%;
+  max-width: 134px;
+}
+
+.header__links-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header-desktop {
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.header__button {
+  font-size: 14px;
+  color: white;
+  border: 1px solid black;
+}
+
+.header__button:hover {
+  color: black;
+  background-color: white;
+}
