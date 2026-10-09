@@ -58,7 +58,7 @@
         gap: 6px;
         padding: 14px 14px 12px;
         background: #191919;
-        border: 1px solid white;
+        border: 1px solid #191919;
         text-decoration: none;
         transition: transform 120ms ease, border-color 120ms ease, background 120ms ease,
           box-shadow 120ms ease;
@@ -70,8 +70,9 @@
 
       .card:hover {
         transform: translateY(-1px);
-        border-color: white;
+        background-color: white;
         box-shadow: 0 6px 20px rgba(57, 1, 1, 0.08);
+        color: black
       }
 
       .title-row {
@@ -102,6 +103,31 @@
         word-break: break-all;
       }
 
+      .card:hover .title-row .page-title {
+        color: #191919;
+      }
+
+      .card:hover .title-row .badge {
+        color: #191919;
+        border: 1px solid #191919;
+      }
+
+      .card:hover .path {
+        color: #191919;
+      }
+
+      .card_two:hover .title-row .page-title {
+        color: #373737;
+      }
+
+      .card_two:hover .title-row .badge {
+        color: #373737;
+        border: 1px solid #373737;
+      }
+
+      .card_two:hover .path {
+        color: #373737;
+      }
 
       @media (max-width: 666px) {
         .grid {
@@ -129,12 +155,12 @@
           <p class="path">html/main.html</p>
         </a>
 
-        <a class="card card_two" href="html/about.html">
+        <a class="card card_two" href="html/main.html">
           <div class="title-row">
-            <div class="page-title">О центре</div>
-            <div class="badge">about</div>
+            <div class="page-title">Главная</div>
+            <div class="badge">main</div>
           </div>
-          <p class="path">html/about.html</p>
+          <p class="path">html/main.html</p>
         </a>
 
       </main>
