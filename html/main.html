@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/main.css">
   <title>Главная</title>
 </head>
@@ -135,29 +136,37 @@
               </div>
             </div>
             <div class="main-contacts-btns-wrapper">
-              <button type="button" class="main-contacts-btn">
-                <img src="../src/icons/star.svg" alt="">
+              <button type="btn button" class="main-contacts-btn main-contacts-btn--black">
+                <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.55 14.84L6.44 22.61L2.94 19.74L8.68 12.46L0 10.36L1.54 5.95L9.8 8.96L9.24 0H13.93L13.3 8.96L21.63 5.95L23.1 10.36L14.49 12.46L20.23 19.74L16.73 22.61L11.55 14.84Z" fill="white"/>
+                </svg>
                 <p class="main-contacts-btn__label">Яндекс карты</p>
               </button>
-              <button type="button" class="main-contacts-btn">
-                <img src="../src/icons/star.svg" alt="">
+              <button type="btn button" class="main-contacts-btn main-contacts-btn--grey">
+                <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.55 14.84L6.44 22.61L2.94 19.74L8.68 12.46L0 10.36L1.54 5.95L9.8 8.96L9.24 0H13.93L13.3 8.96L21.63 5.95L23.1 10.36L14.49 12.46L20.23 19.74L16.73 22.61L11.55 14.84Z" fill="white"/>
+                </svg>
                 <p class="main-contacts-btn__label">Telegram</p>
               </button>
-              <button type="button" class="main-contacts-btn">
-                <img src="../src/icons/star.svg" alt="">
+              <button type="btn button" class="main-contacts-btn main-contacts-btn--grey">
+                <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.55 14.84L6.44 22.61L2.94 19.74L8.68 12.46L0 10.36L1.54 5.95L9.8 8.96L9.24 0H13.93L13.3 8.96L21.63 5.95L23.1 10.36L14.49 12.46L20.23 19.74L16.73 22.61L11.55 14.84Z" fill="white"/>
+                </svg>
                 <p class="main-contacts-btn__label">Вконтакте</p>
               </button>
-              <button type="button" class="main-contacts-btn">
-                <img src="../src/icons/star.svg" alt="">
+              <button type="btn button" class="main-contacts-btn main-contacts-btn--black">
+                <svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.55 14.84L6.44 22.61L2.94 19.74L8.68 12.46L0 10.36L1.54 5.95L9.8 8.96L9.24 0H13.93L13.3 8.96L21.63 5.95L23.1 10.36L14.49 12.46L20.23 19.74L16.73 22.61L11.55 14.84Z" fill="white"/>
+                </svg>
                 <p class="main-contacts-btn__label">Max</p>
               </button>
             </div>
           </div>
 
           <form action="" method="get" autocomplete="off" class="main-form-wrapper">
-            <p class="main-form__label"></p>
+            <p class="main-form__label">Оставьте заявку</p>
             <div class="main-form-fields-wrapper">
-              <p class="main-feilds__label"></p>
+              <p class="main-feilds__label">Основная информация</p>
               <div class="main-fields-wrapper">
                 <div class="main-field-wrapper">
                   <input type="text" class="main-field" placeholder="Имя" autocomplete="off">
@@ -176,18 +185,18 @@
             <div class="main-form-addit-info">
               <p class="main-form-addit-info__label">Дополнительная информация</p>
               <div class="main-form-addit-info-btns-wrapper">
-                <button type="button">Кольцо</button>
-                <button type="button">Серьги</button>
-                <button type="button">Подвески</button>
-                <button type="button">Другое</button>
+                <button type="button" class="btn main-form-addit-info__btn">Кольцо</button>
+                <button type="button" class="btn main-form-addit-info__btn">Серьги</button>
+                <button type="button" class="btn main-form-addit-info__btn">Подвески</button>
+                <button type="button" class="btn main-form-addit-info__btn">Другое</button>
               </div>
             </div>
-            <button type="submit" class="main-form-btn-submit">Отправить заявку</button>
+            <button type="submit" class="btn main-form-btn-submit">Отправить заявку</button>
             <div class="main-form-checkbox-wrapper">
               <input type="checkbox" id="privacy" class="main-form__checkbox">
               <label for="privacy" class="main-form-checkbox-label">
                 <span class="main-form-checkbox-label__text">
-                  Согласен(на) на обработку персональных данных
+                  Оставляя заявку на сайте, вы соглашаетесь<br>с политикой конфиденциальности
                 </span>
               </label>
             </div>
@@ -195,6 +204,47 @@
         </div>
       </div>
     </section>
+
+
+    <footer class="footer-wrapper">
+      <div class="footer-content">
+        <div class="footer-logo-contacts-links">
+          <div class="footer-logo-contacts-wrapper">
+            <img class="footer__logo" src="../src/logo.png" alt="">
+            <div class="footer-contacts__wrapper">
+              <div class="footer-contact-wrapper">
+                <img class="footer-contact__img" src="../src/icons/tel.svg" alt="">
+                <a href="" class="footer-contact__text">8-800-1012-950</a>
+              </div>
+              <div class="footer-contact-wrapper">
+                <img class="footer-contact__img" src="../src/icons/mail.svg" alt="">
+                <a href="" class="footer-contact__text">platika.sales@yandex.ru</a>
+              </div>
+              <div class="footer-contact-wrapper">
+                <img class="footer-contact__img" src="../src/icons/map.svg" alt="">
+                <p class="footer-contact__text">156019, г. Кострома,<br>ул. П. Щербины,<br>дом 2, помещение 10,11<p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-links-wrapper">
+            <a href="" class="footer-link">Контакты</a>
+            <a href="" class="footer-link">Коллекции</a>
+            <a href="" class="footer-link">Каталог</a>
+            <a href="" class="footer-link">О компании</a>
+            <a href="" class="footer-link">Premium</a>
+            <a href="" class="footer-link">Блог</a>
+          </div>
+        </div>
+        <div class="footer-copyright-maps">
+          <p class="footer_copyright">© 2026 Platika. Ювелирные изделия из драгоценных<br>металов со вставками. Все права защищены.</p>
+          <button type="button" class="btn footer-btn-maps">
+            <img class="footer-btn-maps__icon" src="../src/icons/ya-maps.svg" alt="">
+            <p class="footer-btn-maps__label">Яндекс карты</p>
+          </button>
+        </div>
+      </div>
+    </footer>
+
 
   </main>
 
