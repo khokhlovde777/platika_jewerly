@@ -22,7 +22,6 @@
 }
 
 .header__links-wrapper {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -42,4 +41,65 @@
 .header__button:hover {
   color: black;
   background-color: white;
+}
+
+.header-mob {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .header-content {
+    width: 95vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-desktop {
+    display: none;
+  }
+
+  .header-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 22px 31px;
+    position: relative;
+  }
+
+  .header-mob {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .header-mob-btn {
+    padding: 0;
+    background-color: white;
+    width: 6.6vw;
+    max-width: 67px;
+    min-width: 55px;
+  }
+
+  .header__logo-img--mob {
+    width: 21.7vw;
+    max-width: 222px;
+    min-width: 151px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header-menu-mob {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    padding: 26px;
+    background-color: white;
+    z-index: 10;
+  }
 }
