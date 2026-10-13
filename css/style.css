@@ -55,7 +55,7 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  color-scheme: light dark;
+  color-scheme: light only;
 }
 
 html,
@@ -209,8 +209,16 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
   width: 100%;
 }
 
+.page-devider {
+  width: 100vw;
+  height: 1px;
+  background-color: #BBBBBB;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+/* 
 @media (max-width: 1440px) {
   .content-area {
     max-width: 95vw;
   }
-}
+} */

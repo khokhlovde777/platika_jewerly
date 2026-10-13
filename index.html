@@ -48,7 +48,7 @@
       .grid {
         margin-top: 20px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 12px;
       }
 
@@ -60,12 +60,28 @@
         background: #191919;
         border: 1px solid #191919;
         text-decoration: none;
-        transition: transform 120ms ease, border-color 120ms ease, background 120ms ease,
-          box-shadow 120ms ease;
+        transition: transform 120ms ease, border-color 120ms ease, background 120ms ease, box-shadow 120ms ease;
       }
 
       .card_two {
         background-color: #373737;
+      }
+
+      .card_three {
+        background-color: white;
+      }
+
+      .card_three .title-row .page-title {
+        color: #191919;
+      }
+
+      .card_three .title-row .badge {
+        color: #191919;
+        border: 1px solid #191919;
+      }
+
+      .card_three .path {
+        color: #191919;
       }
 
       .card:hover {
@@ -73,6 +89,12 @@
         background-color: white;
         box-shadow: 0 6px 20px rgba(57, 1, 1, 0.08);
         color: black
+      }
+
+      .card_three:hover {
+        transform: translateY(-1px);
+        background-color: #191919;
+        box-shadow: 0 6px 20px rgba(57, 1, 1, 0.08);
       }
 
       .title-row {
@@ -129,6 +151,21 @@
         color: #373737;
       }
 
+      .card_three:hover .title-row .page-title {
+        color: #373737;
+        color: white;
+      }
+
+      .card_three:hover .title-row .badge {
+        color: #373737;
+        color: white;
+        border: 1px solid white;
+      }
+
+      .card_three:hover .path {
+        color: white;
+      }
+
       @media (max-width: 666px) {
         .grid {
           display: flex;
@@ -161,6 +198,14 @@
             <div class="badge">collections</div>
           </div>
           <p class="path">html/collections.html</p>
+        </a>
+
+        <a class="card card_three" href="html/collect-item.html">
+          <div class="title-row">
+            <div class="page-title">Страница коллекции</div>
+            <div class="badge">collect-item</div>
+          </div>
+          <p class="path">html/collect-item.html</p>
         </a>
 
       </main>

@@ -89,18 +89,3 @@
   line-height: 26px;
   color: white;
 }
-
-.collect-devider {
-  width: 100vw;
-  height: 1px;
-  background-color: #BBBBBB;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.collect-form-section {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
