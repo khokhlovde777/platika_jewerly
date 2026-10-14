@@ -1,0 +1,115 @@
+.blog-items-border {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #BBBBBB;
+}
+
+.bi-last-item {
+  border-bottom: 1px solid #BBBBBB;
+}
+
+.blog-items-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 178px;
+}
+
+.blog-items-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.bi-img-wrapper {
+  width: 41vw;
+  max-width: 592px;
+  height: 335px;
+  overflow: hidden;
+}
+
+.bi-img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bi-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 335px;
+}
+
+.bi-info-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between; 
+}
+
+.bi-last-article {
+  font-size: 12px;
+}
+
+.bi-label {
+  font-size: 34px;
+  line-height: 32px;
+  margin-top: 23px;
+}
+
+.bi-description {
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 14px;
+}
+
+.bi-button {
+  color: white;
+  background-color: var(--black-19);
+  padding: 11px 45px;
+  border: 1px solid var(--black-19);
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.bi-button:hover {
+  color: var(--black-19);
+  background-color: white;
+}
+
+.blog-items-img-right .content-area .blog-items-content .bi-info {
+  align-items: end;
+}
+
+.blog-items-img-right .content-area .blog-items-content .bi-info .bi-info-texts {
+  align-items: end;
+}
+
+.blog-items-img-right .content-area .blog-items-content .bi-info .bi-info-texts .bi-label {
+  text-align: end;
+}
+
+.blog-items-img-right .content-area .blog-items-content .bi-info .bi-info-texts .bi-description {
+  text-align: end;
+}
+
+.blog-items-img-right .content-area .blog-items-content .bi-info .bi-button {
+  background-color: var(--grey-37);
+  border: 1px solid var(--grey-37);
+}
+
+.blog-items-img-right .content-area .blog-items-content .bi-info .bi-button:hover {
+  background-color: white;
+  color: var(--grey-37);
+}
