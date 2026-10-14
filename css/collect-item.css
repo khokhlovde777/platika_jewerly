@@ -28,7 +28,7 @@
 
 .cip-crumbs-wrapper {
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   gap: 10px;
 }
@@ -41,7 +41,7 @@
 .cip-crumbs-devider {
   width: 1px;
   height: 30px;
-  background-color: #C3C3C3;
+  background-color: var(--balck-19);
 }
 
 .cip-collect-label {
