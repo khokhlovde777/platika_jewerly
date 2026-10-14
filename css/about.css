@@ -26,3 +26,198 @@
   max-width: 628px;
   min-width: 470px;
 }
+
+.about-info-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-info-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #D9D9D9;
+}
+
+.ai-first-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ai-first-line__item {
+  width: 100%;
+  height: 31px;
+  border: 0.5px solid #D9D9D9;
+}
+
+.ai-second-line {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 474px;
+}
+
+.ai-second-line__text-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-second-line-text__up, .ai-second-line-text__down {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.ai-second-line__item {
+  width: 100%;
+  height: 158px;
+  border: 0.5px solid #D9D9D9;
+}
+
+.ai-second-line__item-down {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid #D9D9D9;
+}
+
+.ai-second-line__item--grey {
+  background-color: var(--grey-37);
+}
+
+.ai-second-line__item--black {
+  background-color: var(--black-19);
+}
+
+.ai-second-line-text-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 16px 19px;
+  border: 0.5px solid #D9D9D9;
+  gap: 8px;
+}
+
+.ai-second-line__label {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.ai-second-line__description {
+  font-size: 14px;
+  line-height: 18px;
+  max-width: 427px;
+}
+
+.ai-second-line__img-content {
+  width: 100%;
+  max-width: 569px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ai-second-line__img, .ai-four-line__img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
+}
+
+.ai-third-line {
+  width: 100%;
+  height: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ai-third-line__item {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid #D9D9D9; 
+}
+
+.ai-four-line {
+  width: 100%;
+  height: 419px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-four-line__img-wrapper {
+  width: 100%;
+  max-width: 569px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ai-four-line-advantages-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-four-line-adv__up, .ai-four-line-adv__down {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ai-adv__item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 25px 0 22px 14px;
+}
+
+.ai-adv__item--grey .ai-adv__label, .ai-adv__item--grey .ai-adv__description, .ai-adv__item--black .ai-adv__label, .ai-adv__item--black .ai-adv__description {
+  color: white;
+}
+
+.ai-adv__item--grey {
+  background-color: var(--grey-37);
+}
+
+.ai-adv__item--black {
+  background-color: var(--black-19);
+}
+
+.ai-adv__label {
+  font-size: 44px;
+  line-height: 40px;
+}
+
+.ai-adv__description {
+  font-size: 12px;
+  line-height: 14px;
+  max-width: 173px;
+}
+
+.about-devider {
+  margin-top: 50px;
+}
