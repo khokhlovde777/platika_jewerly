@@ -1,0 +1,36 @@
+.thx-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.thx-icon {
+  width: 10.3vw;
+  height: auto;
+  min-width: 76px;
+  max-width: 90px;
+}
+
+.thx-label {
+  font-size: 50px;
+}
+
+.thx-btn {
+  width: 95%;
+  max-width: 757px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: var(--black-19);
+  border: 1px solid var(--black-19);
+  color: white;
+  font-size: 18px;
+}
+
+.thx-btn:hover {
+  color: var(--black-19);
+  background-color: white;
+}
