@@ -1,0 +1,35 @@
+.error-page-content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.ep-code {
+  font-size: 250px;
+  font-weight: 600;
+  line-height: 182px;
+}
+
+.ep-label {
+  font-size: 35px;
+}
+
+.ep-btn {
+  width: 95%;
+  max-width: 757px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: var(--black-19);
+  border: 1px solid var(--black-19);
+  color: white;
+  font-size: 18px;
+}
+
+.ep-btn:hover {
+  color: var(--black-19);
+  background-color: white;
+}
