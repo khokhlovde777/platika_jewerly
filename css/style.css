@@ -216,6 +216,11 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
+.btn-form-addit--active {
+  background-color: var(--grey-37) !important;
+  color: white;
+}
 /* 
 @media (max-width: 1440px) {
   .content-area {
