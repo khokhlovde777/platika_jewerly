@@ -227,3 +227,29 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
     max-width: 95vw;
   }
 } */
+
+
+[data-field-wrapper].field-wrapper--error {
+  border-bottom-color: #ed3030;
+}
+
+[data-checkbox-label].form-checkbox-label--error::before {
+  border-color: #ed3030;
+}
+
+[data-checkbox-label].form-checkbox-label--error .form-checkbox-label__text,
+[data-checkbox-label].form-checkbox-label--error .main-form-checkbox-label__text,
+[data-checkbox-label].form-checkbox-label--error .cont-inf-form-checkbox-label__text {
+  color: #ed3030;
+}
+
+[data-addit-label].form-addit-info__label--error,
+[data-addit-label].main-form-addit-info__label--error,
+[data-addit-label].cont-inf-form-addit-info__label--error {
+  color: #ed3030 !important;
+}
+
+.btn-form-addit--active {
+  background-color: var(--grey-37, #333);
+  color: #fff;
+}

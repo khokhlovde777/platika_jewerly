@@ -187,38 +187,38 @@
             </div>
           </div>
 
-          <form action="" method="get" autocomplete="off" class="main-form-wrapper">
+          <form action="" method="get" autocomplete="off" class="main-form-wrapper" data-form novalidate>
             <p class="main-form__label">Оставьте заявку</p>
             <div class="main-form-fields-wrapper">
               <p class="main-feilds__label">Основная информация</p>
               <div class="main-fields-wrapper">
-                <div class="main-field-wrapper">
-                  <input type="text" class="main-field" placeholder="Имя" autocomplete="off">
+                <div class="main-field-wrapper" data-field-wrapper>
+                  <input type="text" name="name" class="main-field" placeholder="Имя" autocomplete="off" data-field data-required>
                 </div>
-                <div class="main-field-wrapper">
-                  <input type="text" class="main-field" placeholder="Фамилия" autocomplete="off">
+                <div class="main-field-wrapper" data-field-wrapper>
+                  <input type="text" name="surname" class="main-field" placeholder="Фамилия" autocomplete="off" data-field data-required>
                 </div>
-                <div class="main-field-wrapper">
-                  <input type="tel" class="main-field" placeholder="Телефон" autocomplete="off">
+                <div class="main-field-wrapper" data-field-wrapper>
+                  <input type="tel" name="phone" class="main-field" placeholder="Телефон" autocomplete="off" inputmode="tel" data-field data-required data-phone>
                 </div>
-                <div class="main-field-wrapper">
-                  <input type="text" class="main-field" placeholder="Email" autocomplete="off">
+                <div class="main-field-wrapper" data-field-wrapper>
+                  <input type="email" name="email" class="main-field" placeholder="Email" autocomplete="off" data-field data-required data-email>
                 </div>
               </div>
             </div>
             <div class="main-form-addit-info">
-              <p class="main-form-addit-info__label">Дополнительная информация</p>
+              <p class="main-form-addit-info__label" data-addit-label>Дополнительная информация</p>
               <div class="main-form-addit-info-btns-wrapper">
-                <button type="button" class="btn main-form-addit-info__btn btn-form-addit">Кольцо</button>
-                <button type="button" class="btn main-form-addit-info__btn btn-form-addit">Серьги</button>
-                <button type="button" class="btn main-form-addit-info__btn btn-form-addit">Подвески</button>
-                <button type="button" class="btn main-form-addit-info__btn btn-form-addit">Другое</button>
+                <button type="button" class="btn main-form-addit-info__btn btn-form-addit" data-addit-btn>Кольцо</button>
+                <button type="button" class="btn main-form-addit-info__btn btn-form-addit" data-addit-btn>Серьги</button>
+                <button type="button" class="btn main-form-addit-info__btn btn-form-addit" data-addit-btn>Подвески</button>
+                <button type="button" class="btn main-form-addit-info__btn btn-form-addit" data-addit-btn>Другое</button>
               </div>
             </div>
             <button type="submit" class="btn main-form-btn-submit">Отправить заявку</button>
             <div class="main-form-checkbox-wrapper">
-              <input type="checkbox" id="privacy" class="main-form__checkbox">
-              <label for="privacy" class="main-form-checkbox-label">
+              <input type="checkbox" id="privacy" class="main-form__checkbox" data-checkbox>
+              <label for="privacy" class="main-form-checkbox-label" data-checkbox-label>
                 <span class="main-form-checkbox-label__text">
                   Оставляя заявку на сайте, вы соглашаетесь<br>с политикой конфиденциальности
                 </span>
@@ -274,5 +274,6 @@
 
   <script src="../js/chooseAdditionalInfoForm.js"></script>
   <script src="../js/openHeaderMenu.js"></script>
+  <script src="../js/formVaslidate.js"></script>
 </body>
 </html>
