@@ -263,3 +263,52 @@
   max-width: 382px;
   min-width: 311px;
 }
+
+.cip-font-allura {
+  font-family: "Allura-Regular";
+}
+
+.cip-font-bebas {
+  font-family: "BebasNeueBold";
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.cip-font-allan {
+  font-family: "Allan-Regular";
+}
+
+.cip-font-amarante {
+  font-family: "Amarante-Regular";
+}
+
+.cip-font-arizona {
+  font-family: "Arizonia-Regular";
+}
+
+.cip-font-baloo {
+  font-family: "BalooBhainaRegular";
+}
+
+.cip-font-bai {
+  font-family: "BaiJamjuree-Regular";
+  font-size: 46px;
+  line-height: 46px;
+}
+
+.cip-font-bruno-ace {
+  font-family: "BrunoAce-Regular";
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.cip-font-delius {
+  font-family: "DeliusUnicase-Regular";
+  font-size: 46px;
+  line-height: 46px;
+}
+
+.cip-font-arbat {
+  font-size: 46px;
+  line-height: 46px;
+}

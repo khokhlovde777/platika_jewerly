@@ -30,6 +30,78 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Allan-Regular";
+  src: url("../src/fonts/Allan-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Allura-Regular";
+  src: url("../src/fonts/Allura-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amarante-Regular";
+  src: url("../src/fonts/Amarante-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arizonia-Regular";
+  src: url("../src/fonts/Arizonia-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BaiJamjuree-Regular";
+  src: url("../src/fonts/BaiJamjuree-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BalooBhainaRegular";
+  src: url("../src/fonts/BalooBhainaRegular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BebasNeueBold";
+  src: url("../src/fonts/BebasNeueBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BrunoAce-Regular";
+  src: url("../src/fonts/BrunoAce-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DeliusUnicase-Regular";
+  src: url("../src/fonts/DeliusUnicase-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {
