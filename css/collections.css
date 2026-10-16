@@ -45,6 +45,14 @@
   height: 294px;
 }
 
+.collect-black-filter {
+  filter: grayscale(100%);
+}
+
+.collect-black-filter:hover {
+  filter: none;
+}
+
 .collect-logo-item {
   background-color: black;
 }
