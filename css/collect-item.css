@@ -233,8 +233,13 @@
 .cip-text-wrapper {
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: start;
+  justify-content: start;
+  gap: 52px;
+}
+
+.cip-description-collection {
+  max-width: 540px;
 }
 
 .cip-description-collection, .cip-description-collection--2 {
