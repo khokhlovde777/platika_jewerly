@@ -397,6 +397,14 @@ input.cont-inf-field.form__tel::placeholder {
   justify-content: center;
 }
 
+.cont-inf-four-line__bts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .cont-inf-four-line__label {
   width: 100%;
   text-align: center;
@@ -449,4 +457,158 @@ input.cont-inf-field.form__tel::placeholder {
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+@media (max-width: 1024px) {
+
+  .cont-inf-second-line {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cont-inf-contacts-info__label {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .cont-inf-contacts-info-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .cont-inf-contacts-info__label {
+    text-align: center;
+  }
+  
+  .cont-inf-contacts-info__label,
+  .cont-inf-contacts-info__item:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .cont-inf-contacts-info-item__text {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .cont-inf-contacts-btns-wrapper {
+    display: flex;
+  }
+
+  .cont-inf-contacts-btn--2, .cont-inf-contacts-btn--4 {
+    color: white;
+    background-color: var(--black-19);
+  }
+
+  .cont-inf-contacts-btn--3 {
+    color: black;
+    background-color: white;
+  }
+
+  .cont-inf-contacts-btn--3 svg path {
+    fill: var(--black-19);
+  }
+
+  .cont-inf-contacts-btn--4 svg path {
+    fill: white;
+  }
+
+  .cont-inf-contacts-btn--1:hover {
+    background-color: var(--black-19);
+    color: white;
+  }
+
+  .cont-inf-contacts-btn--1:hover svg path {
+    fill: white;
+  }
+
+  .cont-inf-contacts-btn--2:hover {
+    background-color: white;
+    color: var(--black-19);
+  }
+
+  .cont-inf-contacts-btn--2:hover svg path{
+    fill: var(--black-19);
+  }
+
+  .cont-inf-contacts-btn--3:hover {
+    background-color: var(--black-19);
+    color: white;
+  }
+
+  .cont-inf-contacts-btn--3:hover svg path {
+    fill: white;
+  }
+
+  .cont-inf-contacts-btn--4:hover {
+    background-color: white;
+    color: var(--black-19);
+  }
+
+  .cont-inf-contacts-btn--4:hover svg path{
+    fill: var(--black-19);
+  }
+
+  .cont-inf-form-wrapper {
+    max-width: none; 
+  }
+
+  .cont-inf-form__label {
+    font-size: 54px;
+    line-height: 48px;
+  }
+
+  .cont-inf-feilds__label, .cont-inf-form-addit-info__label {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .cont-inf-form-addit-info__btn {
+    font-size: 20px;
+    line-height: 24px;
+    height: 50px;
+  }
+
+  .cont-inf-form-btn-submit {
+    height: 65px;
+    font-size: 24px;
+    line-height: 30px;
+    width: 510px;
+    max-width: none;
+  }
+
+  .cont-inf-third-line {
+    display: none;
+  }
+
+  .cont-inf-four-line {
+    height: auto;
+  }
+
+  .cont-inf-four-line, .cont-inf-four-line__btn-wrapper {
+    flex-direction: column;
+  }
+
+  .cont-inf-four-line__btn-wrapper {
+    width: 100%;
+    max-width: none;
+  }
+
+  .cont-inf-four-line__bts-wrapper {
+    flex-direction: row;
+  }
+
+  .cont-inf-map-button {
+    flex-shrink: 1;
+  }
+
+  .cont-inf-four-line__label {
+    font-size: 30px;
+  }
+  
+  .cont-inf-map-wrapper {
+    max-width: none;
+    height: 323px;
+  }
 }
