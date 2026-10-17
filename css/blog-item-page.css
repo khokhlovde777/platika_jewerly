@@ -1,0 +1,79 @@
+.blog-item-page-head-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bip-content {
+  width: 100vw;
+  height: 690px;
+  position: relative;
+  display: flex;
+  align-items: end;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.bip-content-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-item-page-content-section {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bip-back-img-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bip-back-img {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
+}
+
+.back-color {
+  width: 100%;
+  height: 100%;
+  background-color: #00000099;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bip-label {
+  font-size: 56px;
+  color: white;
+}
+
+.bip-description {
+  font-size: 38px;
+  color: white;
+}
+
+.bip-date {
+  font-size: 20px;
+  color: white;
+}
+
+.bip-text {
+  font-size: 18px;
+}
