@@ -67,6 +67,7 @@
   font-size: 34px;
   line-height: 26px;
   color: white;
+  text-transform: uppercase;
 }
 
 .collect-item-btn {
@@ -96,4 +97,24 @@
   font-size: 24px;
   line-height: 26px;
   color: white;
+}
+
+@media (max-width: 1024px) {
+
+  .collect-content-section {
+    padding: 30px 0 ;
+  }
+
+  .collect-item {
+    height: 236px;
+    overflow: hidden;
+  }
+
+  .collect-item-img {
+    max-width: 240px;
+  }
+
+  .page-devider {
+    display: none !important;
+  }
 }

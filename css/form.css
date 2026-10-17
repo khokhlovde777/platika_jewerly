@@ -194,3 +194,26 @@ input.form__field.form__tel::placeholder {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media (max-width: 1217px) {
+  .form-wrapper {
+    flex-direction: column;
+    padding: 20px 43px;
+  }
+
+  .form-inputs-wrapper {
+    gap: 30px;
+  }
+
+  .form__label {
+    font-size: 54px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .feilds__label {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+}
