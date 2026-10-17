@@ -222,3 +222,46 @@
 .about-devider {
   margin-top: 50px;
 }
+
+@media (max-width: 1024px) {
+  .ai-first-line {
+    display: none;
+  }
+
+  .ai-second-line {
+    height: 368px;  
+  }
+
+  .ai-second-line__item, .ai-second-line__item-down {
+    height: 107px;
+  }
+
+  .ai-second-line__label {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .ai-second-line__description {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .ai-third-line {
+    height: 50px;
+  }
+
+  .ai-four-line {
+    height: 338px;
+  }
+
+  .ai-four-line__img-wrapper {
+    width: 69%;
+  }
+
+  .ai-adv__label {
+    font-size: 30px;
+    line-height: 26px;
+  }
+
+  
+}
