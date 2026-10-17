@@ -261,3 +261,13 @@
 .pi-description--1 {
   max-width: 507px;
 }
+
+@media (max-width: 1251px) {
+  
+}
+
+@media (max-width: 1024px) {
+  .product-head-section {
+    padding-top: 50px;
+  }
+}
