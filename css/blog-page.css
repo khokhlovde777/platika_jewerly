@@ -113,3 +113,19 @@
   background-color: white;
   color: var(--grey-37);
 }
+
+@media (max-width: 1024px) {
+  .bi-img-wrapper {
+    width: 44.73vw;
+  }
+
+  .bi-last-article {
+    font-size: 14px;
+  }
+
+  .bi-label {
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+}
