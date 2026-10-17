@@ -199,6 +199,7 @@ input.form__field.form__tel::placeholder {
   .form-wrapper {
     flex-direction: column;
     padding: 20px 43px;
+    gap: 0;
   }
 
   .form-inputs-wrapper {
@@ -214,6 +215,32 @@ input.form__field.form__tel::placeholder {
   .feilds__label {
     font-size: 32px;
     line-height: 38px;
+  }
+
+  .form-fields-wrapper {
+    gap: 22px;
+  }
+
+  .form-addit-info {
+    gap: 22px;
+  }
+
+  .form-addit-info__label {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .form-addit-info__btn {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .form-buttons-wrapper{
+    gap: 30px;
+  }
+
+  .form-btn-submit {
+    width: 510px;
   }
 
 }
