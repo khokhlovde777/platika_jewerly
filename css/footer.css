@@ -102,3 +102,54 @@
 .footer-btn-maps__label {
   font-size: 20px;
 }
+
+@media (max-width: 1250px) {
+  .footer-content {
+    max-width: 95vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px 0 100px 0;
+  }
+
+  .footer-logo-contacts-wrapper {
+    gap: 26px;
+  }
+
+  .footer-logo-contacts-links {
+    width: 100% ;
+    justify-content: start; 
+    align-items: end;
+  }
+
+  .footer-links-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 24px;
+  }
+
+  .footer_copyright {
+    text-align: start;
+  }
+
+  .footer-copyright-maps {
+    align-items: start;
+  }
+
+  .footer__logo {
+    width: 233px;
+  }
+
+  .footer-contact__text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .footer-link {
+    font-size: 24px;
+  }
+}

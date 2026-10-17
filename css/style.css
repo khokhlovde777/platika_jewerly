@@ -294,9 +294,15 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
   color: white;
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1251px) {
   .content-area {
     max-width: 95vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content-area {
+    max-width: 89.258vw;
   }
 }
 
