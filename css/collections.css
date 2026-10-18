@@ -118,3 +118,110 @@
     display: none !important;
   }
 }
+
+@media (max-width: 880px) {
+  .collect-item-btn {
+    width: 90%;
+    padding: 11px 0;
+  }
+}
+
+@media (max-width: 760px) {
+
+  .collect-item-name-wrapper {
+    color: white;
+    background-color: var(--black-19);
+  }
+
+  .collect-item-btn {
+    max-width: 252px;
+  }
+
+  .collect-item {
+    height: 170px;
+  }
+
+  .collect-items-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .collect-logo-item { display: none; }
+
+  /* ===== Шаблон 1 ===== */
+  .ci-template-1 {
+    grid-template-areas:
+      "name name"
+      "img1 img2"
+      "btn  btn"
+      "desc desc";
+  }
+  .ci-template-1 .collect-item:nth-child(1) { grid-area: name; }
+  .ci-template-1 .collect-item:nth-child(3) { grid-area: img1; }
+  .ci-template-1 .collect-item:nth-child(4) { grid-area: btn;  }
+  .ci-template-1 .collect-item:nth-child(5) { grid-area: img2; }
+  .ci-template-1 .collect-item:nth-child(6) { grid-area: desc; }
+
+  /* ===== Шаблон 2 ===== */
+  .ci-template-2 {
+    grid-template-areas:
+      "name name"
+      "img1 img2"
+      "desc desc"
+      "btn  btn";
+  }
+  .ci-template-2 .collect-item:nth-child(1) { grid-area: img1; }
+  .ci-template-2 .collect-item:nth-child(3) { grid-area: name; }
+  .ci-template-2 .collect-item:nth-child(4) { grid-area: desc; }
+  .ci-template-2 .collect-item:nth-child(5) { grid-area: img2; }
+  .ci-template-2 .collect-item:nth-child(6) { grid-area: btn;  }
+
+  /* ===== Общие стили для картинок (высота 200px, в строку) ===== */
+  .ci-template-1 .collect-item:nth-child(3),
+  .ci-template-1 .collect-item:nth-child(5),
+  .ci-template-2 .collect-item:nth-child(1),
+  .ci-template-2 .collect-item:nth-child(5) {
+    height: 200px;
+    width: 100%;
+  }
+
+  .ci-template-1 .collect-item:nth-child(3), .ci-template-2 .collect-item:nth-child(1) {
+    border-right: 0;
+  }
+  
+  .ci-template-1 .collect-item:nth-child(5), .ci-template-2 .collect-item:nth-child(5) {
+    border-left: 0;
+  }
+
+  .ci-template-1 .collect-item:nth-child(3) .collect-item-img,
+  .ci-template-1 .collect-item:nth-child(5) .collect-item-img,
+  .ci-template-2 .collect-item:nth-child(1) .collect-item-img,
+  .ci-template-2 .collect-item:nth-child(5) .collect-item-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* ===== Кнопка и описание — на всю ширину, по центру ===== */
+  .ci-template-1 .collect-item:nth-child(4),
+  .ci-template-1 .collect-item:nth-child(6),
+  .ci-template-2 .collect-item:nth-child(4),
+  .ci-template-2 .collect-item:nth-child(6) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .collect-item-btn { max-width: 252px; }
+
+  .collect-item-name-wrapper {
+    color: white;
+    background-color: var(--black-19);
+    width: 100%;
+  }
+
+}

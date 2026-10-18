@@ -308,6 +308,10 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
   .content-area {
     max-width: 89.258vw;
   }
+
+  .no-content-area-mob {
+    max-width: none !important;
+  }
 }
 
 
@@ -334,4 +338,10 @@ h1, h2, h3, h4, h5, h6, p, li, figcaption {
 .btn-form-addit--active {
   background-color: var(--grey-37, #333);
   color: #fff;
+}
+
+@media (max-width: 800px) {
+  .content-area {
+    max-width: 92vw;
+  }
 }

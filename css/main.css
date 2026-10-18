@@ -1,5 +1,5 @@
 .main-head-section {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -788,4 +788,145 @@ input.main-field.form__tel::placeholder {
   .main-form-btn-submit {
     width: 510px;
   }
+
+  .main-about-img-wrapper {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-head-section__title {
+    font-size: 86px;
+    line-height: 35px;
+  }
+
+  .main-head-section__title--description {
+    font-size: 20px;
+  }
+
+  .main-head-section__advantages-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main-advantage-item {
+    padding: 100px 0 18px 18px;
+  }
+
+  .main-about-texts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-about-text__label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-about-texts__img-btn-wrapper {
+    width: 100%;
+  }
+
+  .main-about-texts__btn-wrapper {
+    height: 267px;
+    padding: 0 0 0 18px;
+  }
+
+  .main-about-img-wrapper {
+    width: 100%;
+    max-width: none;
+  }
+
+  .main-ring-table__table {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-table-item {
+    border: none !important;
+    border-bottom: 1px solid #C3C3C3 !important;   
+  }
+
+  .main-table-item:nth-child(6) {
+    border: none !important;   
+  }
+
+  .main-contacts-info-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-contacts-btns-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .main-contacts-btn {
+    width: 100%;
+  }
+
+  .main-form-wrapper {
+    max-height: none;
+  }
+
+  .main-feilds__label, .main-form-addit-info__label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-fields-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .main-field-wrapper {
+    width: 100%;
+  }
+
+  .main-form-addit-info-btns-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 14px;
+    column-gap: 18px;
+  }
+
+  .main-form-btn-submit {
+    width: 100%;
+  }
+
+  .main-about-text__description {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .main-table-item {
+    align-items: center;
+  }
+
+  .main-table-item__description {
+    text-align: center;
+  }
+
+  .main-form__label {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .main-feilds__label {
+    font-size: 29px;
+    line-height: 38px;
+  }
+
 }

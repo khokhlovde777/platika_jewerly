@@ -244,3 +244,48 @@ input.form__field.form__tel::placeholder {
   }
 
 }
+
+@media (max-width: 800px) {
+
+  .form-wrapper {
+    padding: 20px;
+  }
+
+  .feilds__label, .form-addit-info__label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .fields-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .field-wrapper {
+    width: 100%;
+  }
+
+  .form-addit-info-btns-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 14px;
+    column-gap: 18px;
+  }
+
+  .form-btn-submit {
+    width: 100%;
+  }
+
+  .form__label {
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .feilds__label {
+    font-size: 29px;
+    line-height: 38px;
+  }
+}

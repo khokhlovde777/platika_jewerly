@@ -153,3 +153,21 @@
     font-size: 24px;
   }
 }
+
+@media (max-width: 830px) {
+  .footer-logo-contacts-links {
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+  }
+
+  .footer-content {
+    gap: 40px;
+  }
+
+  .footer-links-wrapper {
+    width: 100%;
+    padding-bottom: 0;
+  }
+}
+
