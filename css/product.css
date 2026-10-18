@@ -78,15 +78,20 @@
 }
 
 .product-head-img-wrapper {
-  width: 100%;
+  width: 31.25vw;
+  max-width: 450px;
+  min-width: 388px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .product-head-img {
+  inset: 0;
   width: 100%;
-  max-width: 450px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
 }
 
 .product-back-img-section {
@@ -330,6 +335,14 @@
   .product-img-description-content {
     font-size: 14px;
     line-height: 16px;
+  }
+
+  .product-head-crumbs-wrapper {
+    display: none;
+  }
+
+  .no-content-area-mob {
+    max-width: none;
   }
   
 }

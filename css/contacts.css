@@ -461,6 +461,11 @@ input.cont-inf-field.form__tel::placeholder {
 
 @media (max-width: 1024px) {
 
+  .contacts-head-img {
+    width: 95vw;
+    max-width: none;
+  }
+
   .cont-inf-second-line {
     flex-direction: column;
     height: auto;
