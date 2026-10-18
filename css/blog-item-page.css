@@ -77,3 +77,19 @@
 .bip-text {
   font-size: 18px;
 }
+
+@media (max-width: 720px) {
+  .bip-label {
+    font-size: 46px;
+    line-height: 50px;
+  }
+
+  .bip-description {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+
+  .bip-date {
+    font-size: 12px;
+  }
+}

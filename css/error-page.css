@@ -16,6 +16,8 @@
 
 .ep-label {
   font-size: 35px;
+  width: 95vw;
+  text-align: center;
 }
 
 .ep-btn {
@@ -32,4 +34,11 @@
 .ep-btn:hover {
   color: var(--black-19);
   background-color: white;
+}
+
+@media (max-width: 800px) {
+  .ep-code {
+    font-size: 150px;
+    line-height: 80px;
+  } 
 }
