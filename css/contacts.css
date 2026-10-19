@@ -617,3 +617,84 @@ input.cont-inf-field.form__tel::placeholder {
     height: 323px;
   }
 }
+
+@media (max-width: 780px) {
+  .cont-inf-contacts-info__label {
+    font-size: 46px;
+    line-height: 40px;
+  }
+
+  .cont-inf-first-line__item:nth-child(4),
+  .cont-inf-first-line__item:nth-child(5),
+  .cont-inf-first-line__item:nth-child(6) { 
+    display: none; 
+  }
+
+  .cont-inf-contacts-info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .cont-inf-contacts-info-item__text {
+    font-size: 20px;
+  }
+
+  .cont-inf-contacts-btns-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cont-inf-contacts-btn:nth-child(1) { order: 1 }
+  .cont-inf-contacts-btn:nth-child(2) { order: 2 }
+  .cont-inf-contacts-btn:nth-child(3) { order: 4 }
+  .cont-inf-contacts-btn:nth-child(4) { order: 3 }
+
+  .cont-inf-form__label {
+    font-size: 48px;
+  }
+
+  .cont-inf-feilds__label, .cont-inf-form-addit-info__label {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .cont-inf-fields-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cont-inf-field-wrapper {
+    height: auto;
+  }
+
+  input.cont-inf-field {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  .cont-inf-form-addit-info-btns-wrapper, .cont-inf-four-line__bts-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cont-inf-form-btn-submit {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .cont-inf-form-checkbox-label__text {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .cont-inf-map-button {
+    height: 139px;
+  }
+
+  .cont-inf-map-wrapper {
+    height: 377px;
+  }
+}
