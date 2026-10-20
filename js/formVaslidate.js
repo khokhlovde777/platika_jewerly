@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fields = form.querySelectorAll('[data-field][data-required]');
     const checkbox = form.querySelector('[data-checkbox]');
     const checkboxLabel = form.querySelector('[data-checkbox-label]');
-    const additLabel = form.querySelector('[data-addit-label]');
+    // const additLabel = form.querySelector('[data-addit-label]');
     const additBtns = form.querySelectorAll('[data-addit-btn]');
 
     fields.forEach((input) => {
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.addEventListener('click', () => {
         additBtns.forEach((b) => b.classList.remove('btn-form-addit--active'));
         btn.classList.add('btn-form-addit--active');
-        setAdditLabelError(additLabel, false);
+        // setAdditLabelError(additLabel, false);
       });
     });
 
@@ -141,14 +141,14 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!checkboxValid) hasErrors = true;
 
       const additValid = !!form.querySelector('.btn-form-addit--active');
-      setAdditLabelError(additLabel, !additValid);
+      // setAdditLabelError(additLabel, !additValid);
       if (!additValid) hasErrors = true;
 
       if (hasErrors) {
         const firstError =
           form.querySelector('[data-field-wrapper].field-wrapper--error input') ||
-          form.querySelector('[data-checkbox-label].form-checkbox-label--error') ||
-          form.querySelector('[data-addit-label].form-addit-info__label--error');
+          form.querySelector('[data-checkbox-label].form-checkbox-label--error')
+          // form.querySelector('[data-addit-label].form-addit-info__label--error');
 
         if (firstError) {
           firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });

@@ -734,6 +734,10 @@ input.main-field.form__tel::placeholder {
     gap: 40px;
   }
 
+  .main-about__catalog-btn-texts-wrapper {
+    gap: 10px;
+  }
+
   .main-contacts-info__label {
     font-size: 54px;
     line-height: 50px;

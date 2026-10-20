@@ -697,4 +697,9 @@ input.cont-inf-field.form__tel::placeholder {
   .cont-inf-map-wrapper {
     height: 377px;
   }
+
+  .cont-inf-contacts-info__item {
+    justify-content: start;
+    width: 100%;
+  }
 }

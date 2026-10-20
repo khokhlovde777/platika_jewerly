@@ -16,7 +16,7 @@
 }
 
 .about-head-label {
-  font-size: 56px;
+  font-size: 50px;
   line-height: 64px;
   text-align: center;
   font-weight: 400;
@@ -25,7 +25,6 @@
 .about-head-img {
   width: 43.6vw;
   max-width: 628px;
-  min-width: 470px;
 }
 
 .about-info-section {
