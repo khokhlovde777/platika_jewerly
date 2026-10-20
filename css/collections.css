@@ -124,6 +124,15 @@
     width: 90%;
     padding: 11px 0;
   }
+
+  .collect-item-description-text {
+    text-align: center;
+  }
+
+  .collect-item-name {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 @media (max-width: 760px) {
