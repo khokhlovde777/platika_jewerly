@@ -826,7 +826,9 @@ input.main-field.form__tel::placeholder {
     width: 100%;
   }
 
-
+  .main-about__catalog-btn__description {
+    max-width: none;
+  }
 
   .main-about-text__label {
     width: 100%;
@@ -839,7 +841,7 @@ input.main-field.form__tel::placeholder {
 
   .main-about-texts__btn-wrapper {
     height: 267px;
-    padding: 0 0 0 18px;
+    padding: 0 18px 0 18px;
   }
 
   .main-about-img-wrapper {
