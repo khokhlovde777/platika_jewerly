@@ -819,11 +819,18 @@ input.main-field.form__tel::placeholder {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
+
+  .main-about-texts__label-description {
+    width: 100%;
+  }
+
+
 
   .main-about-text__label {
     width: 100%;
-    text-align: center;
+    text-align: start;
   }
 
   .main-about-texts__img-btn-wrapper {
@@ -909,6 +916,7 @@ input.main-field.form__tel::placeholder {
   .main-about-text__description {
     font-size: 16px;
     line-height: 20px;
+    width: 100%;
   }
 
   .main-table-item {
