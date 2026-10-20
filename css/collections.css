@@ -164,7 +164,6 @@
 
   .collect-logo-item { display: none; }
 
-  /* ===== Шаблон 1 ===== */
   .ci-template-1 {
     grid-template-areas:
       "name name"
@@ -178,7 +177,6 @@
   .ci-template-1 .collect-item:nth-child(5) { grid-area: img2; }
   .ci-template-1 .collect-item:nth-child(6) { grid-area: desc; }
 
-  /* ===== Шаблон 2 ===== */
   .ci-template-2 {
     grid-template-areas:
       "name name"
@@ -192,7 +190,6 @@
   .ci-template-2 .collect-item:nth-child(5) { grid-area: img2; }
   .ci-template-2 .collect-item:nth-child(6) { grid-area: btn;  }
 
-  /* ===== Общие стили для картинок (высота 200px, в строку) ===== */
   .ci-template-1 .collect-item:nth-child(3),
   .ci-template-1 .collect-item:nth-child(5),
   .ci-template-2 .collect-item:nth-child(1),
@@ -219,7 +216,6 @@
     display: block;
   }
 
-  /* ===== Кнопка и описание — на всю ширину, по центру ===== */
   .ci-template-1 .collect-item:nth-child(4),
   .ci-template-1 .collect-item:nth-child(6),
   .ci-template-2 .collect-item:nth-child(4),
