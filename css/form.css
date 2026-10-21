@@ -289,3 +289,10 @@ input.form__field.form__tel::placeholder {
     line-height: 38px;
   }
 }
+
+@media (max-width: 390px) {
+  .form-addit-info-btns-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

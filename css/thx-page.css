@@ -36,3 +36,9 @@
   color: var(--black-19);
   background-color: white;
 }
+
+@media (max-width: 489px) {
+  .thx-label {
+    font-size: 30px;
+  }
+}

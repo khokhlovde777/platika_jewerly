@@ -42,3 +42,9 @@
     line-height: 80px;
   } 
 }
+
+@media (max-width: 489px) {
+  .ep-label {
+    font-size: 30px;
+  }
+}

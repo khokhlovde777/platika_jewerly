@@ -316,3 +316,9 @@
   .ai-four-line-advantages-wrapper .ai-adv__item:nth-child(5) { order: 5; }
   .ai-four-line-advantages-wrapper .ai-adv__item:nth-child(6) { order: 6; }
 }
+
+@media (max-width: 416px) {
+  .about-head-label {
+    font-size: 40px;
+  }
+}

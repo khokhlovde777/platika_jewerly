@@ -8,7 +8,7 @@
 
 .collect-head-label {
   text-align: center;
-  font-size: 64px;
+  font-size: 52px;
   line-height: 60px;
   font-weight: 400;
 }
@@ -239,4 +239,11 @@
     width: 100%;
   }
 
+}
+
+@media (max-width: 1023px) {
+  .collect-black-filter:hover {
+    filter: grayscale(100%);
+    transform: scale(.9);
+  }
 }
