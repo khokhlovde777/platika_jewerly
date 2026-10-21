@@ -800,12 +800,13 @@ input.main-field.form__tel::placeholder {
 
 @media (max-width: 800px) {
   .main-head-section__title {
-    font-size: 86px;
+    font-size: 70px;
     line-height: 35px;
   }
 
   .main-head-section__title--description {
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 0;
   }
 
   .main-head-section__advantages-wrapper {
@@ -837,6 +838,7 @@ input.main-field.form__tel::placeholder {
   .main-about-text__label {
     width: 100%;
     text-align: start;
+    font-size: 47px;
   }
 
   .main-about-texts__img-btn-wrapper {
@@ -844,8 +846,8 @@ input.main-field.form__tel::placeholder {
   }
 
   .main-about-texts__btn-wrapper {
-    height: 267px;
-    padding: 0 18px 0 18px;
+    height: auto;
+    padding: 18px;
   }
 
   .main-about-img-wrapper {

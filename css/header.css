@@ -64,7 +64,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    padding: 22px 31px;
+    padding: 22px 20px;
     position: relative;
   }
 
@@ -82,7 +82,7 @@
     background-color: white;
     width: 6.6vw;
     max-width: 67px;
-    min-width: 55px;
+    min-width: 35px;
   }
 
   .header__logo-img--mob {
