@@ -703,3 +703,10 @@ input.cont-inf-field.form__tel::placeholder {
     width: 100%;
   }
 }
+
+@media (max-width: 390px) {
+  .cont-inf-form-addit-info-btns-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
