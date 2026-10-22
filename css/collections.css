@@ -46,6 +46,10 @@
   overflow: hidden;
 }
 
+.collect-item-btn-wraper {
+  background-color: var(--black-19);
+}
+
 .collect-black-filter {
   filter: grayscale(100%);
   transform: scale(.7);
@@ -79,7 +83,7 @@
   padding: 11px 72px;
   border-radius: 35px;
   color: white;
-  border: 1px solid var(--black-19);
+  border: 1px solid var(--grey-37);
 }
 
 .collect-item-btn:hover {
