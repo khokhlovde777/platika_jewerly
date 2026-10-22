@@ -48,7 +48,7 @@
 
 .collect-black-filter {
   filter: grayscale(100%);
-  transform: scale(.9);
+  transform: scale(.7);
 }
 
 .collect-black-filter:hover {
@@ -244,6 +244,6 @@
 @media (max-width: 1023px) {
   .collect-black-filter:hover {
     filter: grayscale(100%);
-    transform: scale(.9);
+    transform: scale(.7);
   }
 }
